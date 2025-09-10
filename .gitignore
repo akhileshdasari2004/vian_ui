@@ -1,0 +1,48 @@
+# Node / React
+node_modules/
+**/.cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tsbuildinfo
+
+# Build outputs
+ui/frontend/build/
+ui/frontend/dist/
+ui/frontend/.next/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Env files
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+ui/backend/.venv/
+.venv/
+venv/
+
+# Coverage / test
+.coverage
+.pytest_cache/
+coverage/
+
+# Misc
+.tmp/
+.temp/
